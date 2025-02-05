@@ -1,0 +1,95 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #26293a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+}
+
+.precio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.precio-tarjeta, .precio-tarjeta1, .precio-tarjeta2 {
+  width: 275px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.precio-tarjeta1 {
+  background-color: #5175ff;
+  color: white;
+}
+
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 25px; 
+  color: #26293a;
+}
+.precio-tarjeta1 h2{
+  color: white;
+}
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px; 
+  color: #26293a;
+}
+.precio-tarjeta1 h1{
+  color: white;
+}
+p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #9c9191;
+}
+
+ul {
+  list-style: none; 
+  padding: 0;
+  margin-bottom: 25px; }
+
+ul li {
+  margin-bottom: 20px; 
+  color: #9c9191;
+}
+
+button {
+  margin-top: auto; 
+  padding: 10px 15px;
+  border: none;
+  background-color: #26293a;
+  color: white;
+  border-radius: 40px;
+  font-size: 20px;
+}
+.precio-tarjeta1 ul li{
+  color: #fff;
+}
+.precio-tarjeta1 p{
+  color: #fff;
+}
+.precio-tarjeta1 button{
+  color: #26293a;
+  background-color: #fff;
+}
