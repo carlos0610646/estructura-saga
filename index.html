@@ -3,44 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing Table</title>
-    <link rel="stylesheet" href="style1.css">
+    <title>Developer Profile</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="precio-container">
-        <div class="precio-tarjeta">
-            <h2>Basico</h2>
-            <h1>Gratis</h1>
-            <p>Hasta 5 personas por plan</p>
-            <ul>
-                <li>Característica 1</li>
-                <li>Característica 2</li>
-                <li>Característica 3</li>
-            </ul>
-            <button>Pruebalo ahora</button>
+    <div class="container">
+        <aside class="profile">
+            <img src="./imagenes/profile.jpg" alt="Billy Pearson">
+            <h1>Billy Pearson</h1>
+            <p>Front-end developer</p>
+            <p>billy@example.com</p>
+            <p>(+503) 546 624 342</p>
+            <p>Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
+        </aside>
+
+        <div class="skills-container">
+            <!-- Sección Front End -->
+            <section class="skills front-end">
+                <h2>Front End</h2>
+                <div class="skill">
+                    <span>React</span>
+                    <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Vue</span>
+                    <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Redux</span>
+                    <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span>React Native</span>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+            </section>
+
+            <section class="skills design">
+                <h2>Design</h2>
+                <div class="skill">
+                    <span>Figma</span>
+                    <div class="progress-bar"><div class="progress" style="width: 55%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Photoshop</span>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+            </section>
         </div>
-        <div class="precio-tarjeta1">
-            <h2>Intermedio</h2>
-            <h1>$9,99</h1>
-            <p>Hasta 35 personas por plan</p>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <div>
+                <h3>Front-end Developer at Adidas</h3>
+                <img src="./imagenes/EXP-1.png" alt="Adidas">
+                <p>Feb 2017 - Present</p>
+                <p>Donec aliquam est dui, vel vestibulum diam solicitudi id. Quisque feugiat malesuada molestie.</p>
+            </div>
+            <div>
+                <h3>Full-stack Developer at H&M</h3>
+                <img src="./imagenes/EXP-2.png" alt="H&M">
+                <p>Aug 2016 - Feb 2018</p>
+                <p>Donec aliquam est dui, vel vestibulum diam solicitudi id. Quisque feugiat malesuada molestie.</p>
+            </div>
+            <div>
+                <h3>Junior Front-end Developer at Nivea</h3>
+                <img src="./imagenes/EXP-3.png" alt="Nivea">
+                <p>Jun 2015 - Aug 2016</p>
+                <p>Donec aliquam est dui, vel vestibulum diam solicitudi id. Quisque feugiat malesuada molestie.</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Recipe Blog</h3>
+                <img src="./imagenes/project01.jpg" alt="Recipe Blog">
+                <p>#HTML #CSS #responsive</p>
+                <p>In this project, I worked with HTML and CSS to create a responsive page. This page is similar white a page. The design is from devchallenge.io </p>
+                <a href="#">Demo</a> <a href="#">Code</a>
+            </article>
+            <article>
+                <h3>My Gallery</h3>
+                <img src="./imagenes/project02.jpg" alt="My Gallery">
+                <p>#HTML #CSS #JavaScript</p>
+                <p>In this project, I worked with HTML and CSS to create a responsive page. This page is similar white a page. The design is from devchallenge.io</p>
+                <a href="#">Demo</a> <a href="#">Code</a>
+            </article>
+            <article>
+                <h3>Checkout Page</h3>
+                <img src="./imagenes/project03.jpg" alt="Checkout">
+                <p>#React #CSS #responsive</p>
+                <p>In this project, I worked with HTML and CSS to create a responsive page. This page is similar white a page. The design is from devchallenge.io</p>
+                <a href="#">Demo</a> <a href="#">Code</a>
+            </article>
+        </section>
+
+        <section class="hobbies">
+            <h2>Hobbi</h2>
             <ul>
-                <li>Característica 1</li>
-                <li>Característica 2</li>
-                <li>Característica 3</li>
+                <li>
+                    <img src="./imagenes/hobbie01.jpg" alt="Gaming">
+                    <span>Quisque feugiat malesuada molestie.</span>
+                </li>
+                <li>
+                    <img src="./imagenes/hobbie02.jpg" alt="Cooking">
+                    <span>Quisque feugiat malesuada molestie.</span>
+                </li>
+                <li>
+                    <img src="./imagenes/project03.jpg" alt="Biking">
+                    <span>Quisque feugiat malesuada molestie.</span>
+                </li>
             </ul>
-            <button>Pruebalo ahora</button>
-        </div>
-        <div class="precio-tarjeta2">
-            <h2>Profesional</h2>
-            <h1>$19,99</h1>
-            <p>Hasta 50 personas por plan</p>
-            <ul>
-                <li>Característica 1</li>
-                <li>Característica 2</li>
-                <li>Característica 3</li>
-            </ul>
-            <button>Pruebalo ahora</button>
-        </div>
+        </section>
+
+        <section class="blog">
+            <h2>Blog</h2>
+            <article>
+                <h3>How to organize your CSS</h3>
+                <img src="./imagenes/blog01.jpg" alt="CSS Organization">
+                <p>In this article I tell the story about
+                    Proin eu justo sit amet lacus
+                    bibendum tincidunt. Vivamus non
+                    volutpat nisl, a luctus mi.
+                    
+                    Donec aliquam est dui, vel
+                    vestibulum diam sollicitudin id.
+                    Quisque feugiat malesuada molestie.</p>
+                <a href="https://dev.to">Read more</a>
+            </article>
+        </section>
     </div>
 </body>
 </html>
+
+
+
+
